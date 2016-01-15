@@ -1,0 +1,10 @@
+h1 {
+color: FFFFFF;
+font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+font-size: 50
+}
+body {
+    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/06/gear-wallpaper-6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

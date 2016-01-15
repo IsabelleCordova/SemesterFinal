@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title> FIRST Robotics&#153; Beta Blues </title>
+		<link rel="stylesheet" href="CSSFinal.css"> 
+
+    </head>
+	
+	<body> 
+		<h1><DIV ALIGN=CENTER>Official page for the St. Mary's Academy Beta Blues robotics team</DIV></h1>
+		<img src="logo">
+	</body>
+
+<head>
+     <ul>
+     <li><a href="index.html" class="active"><p style="margin-top: 200px;">Buy</p></a></li>
+ </ul>
+<script type="text/javascript">
+var image1 = new Image()
+image1.src = "http://www.girlscoutsla.org/images/other/Robotics/RNR_Altanta.jpg"
+var image2 = new Image()
+image2.src = "http://www.cs.cmu.edu/sites/default/files/Girls%20of%20Steel%20ReCap%20Robot2.jpg"
+</script>
+</head>
+<body>
+<p><img src="http://www.girlscoutsla.org/images/other/Robotics/RNR_Altanta.jpg" width="2000" height="1200" name="slide" /></p>
+<script type="text/javascript">
+        var step=1;
+        function slideit()
+        {
+            document.images.slide.src = eval("image"+step+".src");
+            if(step<2)
+                step++;
+            else
+                step=1;
+            setTimeout("slideit()",2500);
+        }
+        slideit();
+</script>
+
+</body>
+
+</html>
